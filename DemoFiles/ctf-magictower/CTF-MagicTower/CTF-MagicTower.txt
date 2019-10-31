@@ -1,0 +1,42 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : CTF-MagicTower
+Version                 : 1
+Release Date            : 11/08/2003
+Filename                : CTF-MagicTower
+Author                  : Christian"Cobra"Trepanier
+Email Address           : 428cobrajet@videotron.ca
+
+Additional credits      : To Lord Simeon Spargo. You fixed for me, a BIG homs, in that map. Thank's Simeon.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament 
+                                 
+Level Name              : CTF-LavaGiantForteres       
+
+Game Type               : CTF
+Single Player           : No
+Deathmatch              : No
+Capture the Flag 	: Yes
+ Domination       : No
+Other			: No
+Difficulty Settings     : from "novice" to "godlike"
+
+Known bugs              : Sometimes, the bots will act crazy, for a few segond's. It is not the pathing, that do that. It is the layout of the map. But don't worry the bots will kick some ass in there.
+Installation
+------------
+All files UTX: goe's to the texture files
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Christian Trepanier.
+Authors may  NOT thake this, level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this BSP through any electronic network (internet, FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.

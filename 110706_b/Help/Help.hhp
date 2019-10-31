@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Help.chm
+Contents file=Source\Table of Contents.hhc
+Default Window=Main
+Default topic=Source\main.html
+Display compile progress=No
+Index file=Source\Index.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+Main="UTFile","Source\Table of Contents.hhc","Source\Index.hhk","Source\main.html",,,,,,0x2100,,0x2004,[55,77,782,578],,,,1,,,0
+
+
+[FILES]
+Source\main.html
+
+[INFOTYPES]
+

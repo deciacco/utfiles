@@ -1,0 +1,72 @@
+==========================================================================
+Title                   : Locust Wind Containment Facilty
+Released    		: 8th November 2000
+Filename                : ctf-locustwind.zip
+Author                  : Gareth 'Ulukai' Spring
+
+Email Address           : ulukai@planetunreal.com (feedback & bugreports appreciated)
+Home page		: http://www.planetunreal.com/ulukai/
+
+Description             : Abandoned futuristic viral containment facilty located 
+			  in a snowy mountain range. CTF fun for 10+ players.
+			  			 
+Notable levels by author: CTF-Cadenza
+			  CTF-Breathe 
+
+			  DM-Clementine
+			  DM-DevilEye
+			  
+			  DOM-SpireTemple
+			  
+==========================================================================
+Custom Sounds           : No
+Custom Graphics         : 2 "butchered" UT Textures :P 
+Known bugs              : None
+==========================================================================
+
+Installation
+============
+
+* Unzip CTF-LocustWind.unr into your Unreal Tournament/Maps directory.
+
+Gameplay Notes
+==============
+
+* The idea of the game is to Capture the Flag :P
+* If you're handy with a translocator, there are a multitude of "over the top" 
+  routes to choose from, although bewarned -the polycount up there gets quite high.
+
+Technical Notes
+===============
+
+* The Skybox is a modified version of the one in DM-Tundra, from Unreal.
+* A crate on a chain? I deny all knowledge, baby.
+* I warn you now - the polycount is, on average, slighty higher than most maps, so it
+  will probably run a bit too slow on <= 350MHz computers.
+* The map is called "Locust Wind" as I thought this an appropriate codename for a viral
+  containment facility:
+
+  -Thought train:
+
+	-virus
+	-plague 
+	-plague of locusts 
+	-which travel on the wind
+	-Locust Wind
+	-see?
+
+* I now seem to recall the fact that U2 use the phrase "Locust Wind" in the song
+  "Bullet the Blue Sky", but it's a coincidence - perhaps it was unconsciously on
+  my mind?
+
+
+Invaluble Beta Test Peeps
+=========================
+
+* BarfLung & SonicSam, Nitin, The Rat[admin], Shock6822, Vajuras.
+* Anyone I've forgotton...
+
+==========================================================================
+Ulukai's Map Design - www.planetunreal.com/ulukai/
+Contact		    - ulukai@planetunreal.com
+==========================================================================

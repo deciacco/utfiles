@@ -1,0 +1,170 @@
+  ==================================
+===    NBSpecialsUT mod' for UT    ===
+=== by Beppo (Norbert Bogenrieder) ===
+  ==================================
+e-mail:		nb_beppo@gmx.net or beppo@planetunreal.com
+homepage:	www.planetunreal.com/beppo
+-----------
+build date:	January the 5th 2000
+version   :     2.50
+-----------
+----------------
+updates & infos:
+----------------
+-------------
+version 2.50:
+-------------
+compiled using UnrealTournament.
+Some classes not longer supported by UT were removed
+(ie. PickupMine, BowyKnife)
+
+-------------
+version 2.20:
+-------------
+ONLINE PROBLEMS FIXED !!!
++ CRM (Mover.ControlRotatatingMover)
++ ControlRocket (Projectile.Rocket.ControlRocket)
+
+both now work ONLINE...
+
+-------------
+version 2.12:
+-------------
++ some little 'overall' changes
++ ControlRockets now can kill the instigator only after 1 sec flying
+  (before it was possible to be killed instantly if fired with some weapons)
++ little bugs like warning messages fixed
+
+-------------
+version 2.11:
+-------------
++ CRM now feautures Double-Cannon capability and a new FireOffset
+  if you want to build a double-cannon you don't have to build TWO
+  CRMs now. Only ONE is needed!
+  In the new submenu ControlSpecialFire you have the chance to enter
+  a FireOffset. It's similar to the one used in the weapon classes.
+  The old FirePositionOffset (still existing) only moves the projectile
+  into the direction of the current rotation. Now the new FireOffset
+  can be used to move the spawning position of a projectile or instant-
+  hit to any position you specify. Normaly you'll just use its y-value
+  to move it to the right or left.
+  In addition you can set the bDoubleFire parameter to True. So two
+  projectiles or instanthits will be spawned at the same time. The
+  second one is spawned at the y-value * -1.
+  So, you get a double cannon with just ONE CRM !!!
+
+-------------
+version 2.10:
+-------------
++ CRM's (ControlRotatingMovers) min/max values now work perfect
+  if you reach the yaw min/max values the CRM will now switch
+  around if the controler continues turning.
+  ie. if you turn a 'cannon' to the min yaw it stays in this position
+      until the controler reaches the center rotation between min and
+      max yaw. If the controler continues turning in the max yaw
+      direction the 'cannon' switches to the max yaw position.
+  so, the problem of turning around several times and the cannon stays
+  in the min or max position until you redo all rotation, is fixed!
+
++ SpecialMines now explode by TakeDamage events
+  the former version exploded ONLY by a direct hit and InstantHit
+  weapons haven't got a chance to harm it in any way.
+  Now you can create chain reactions with a single blast, or cover
+  a whole room with mines and the poor guy who steps on ONE single mine
+  blows up the whole room...
+  The 'health' of the SpecialMines is set to 18 by default. So, you
+  have to shoot it twice with an AutoMag. But, just fire an eightball
+  rocket near a bunch of mines and all will explode!
+  Lot of fun :) !!
+
++ ElevatorButton stuff using ElevatorMoverInsideButtons
+  corrected some lines of code (my elevators now work perfect...)
+  Use this classes (and more) in combination to build 'real' elevators
+  with in- and outside buttons, elevator doors and bot-support
+  A detailed description can be found directly inside the 
+  Mover.ElevatorButton script...
+
++ PickupMover
+  If you don't have a mesh for your Inventory class,
+  or if you just want to 'build' one for it inside UnrealEd...
+  use this class...
+  In addition:
+  up to TEN (10) Inventory objects with only one touch possible!
+
++ InventoryZone
+  Use this for predefined Inventory when entering / leaving this Zone
+  use this ZoneInfo with bNoInventory for StartupZones
+  like a RestRoom or ChatRoom... and use the ExitZone-Inventory entries
+  to setup any inventory!
+  !!! this variant is working with every game type !!!
+  You can specify up to twenty (20) Inventory classes to add and
+  up to 20 to subtract (or just delete the whole inventory) if
+  a player enters this zone. Same for leaving.
+  Try a combination with WarpZones and PlayerStarts... it's possible
+  to setup diffrent types of players. ie. one with an AutoMag and a
+  ShieldBelt and another with an EightBall and some Grenades all
+  done by respawning inside an InventoryZone and 'falling' into a
+  WarpZone that replaces your original PlayerStart
+
++ RotatingCamera2 in combination with ViewSpot to 'get around' an
+  Unreal Engine 'bug' ...
+
++ ControlRocket now performs better
+  You can control this rocket like the RazorBlade.
+  In addition you 'fly' with her while you control it!
+  This thingy works similar to the upcoming
+  GuidedRocket from UnrealTournament !!
+
++ ControlRocketSeeking
+  like the ControlRocket + if the controler presses Fire AND AltFire
+  the rocket will start searching for a target by itself !!
+
++ AirStrike now features special events for triggering other stuff
+  like movers, sounds or even some sort of cutscenes
+  You can select any of the AirStrikes 'time points' to start and
+  end the wanted event. (Start = TriggerEvent; End = UnTriggerEvent)
+
++ some speed and net performance stuff
+
+Ok, that's not all but I think I got all the newest stuff listed above!
+
+If you encounter any problems, are in need of additional information
+or have some cool ideas what I could include inside the next version...
+feel free to send an e-mail to:
+
+nb_beppo@gmx.net or beppo@planetunreal.com
+
+see ya,
+
+Beppo
+
+Have fun and enjoy !! :)
+
+================================================================
+Copyright / Permissions
+-----------------------
+Authors may USE this mod inside theirs levels, but NOT without
+appropriate credits applied. :)
+
+You are NOT allowed to commercially exploit this mod, i.e. put it on a
+CD or any other electronic medium that is sold for money without my
+explicit permission!
+
+You MAY distribute this mod through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the
+archive intact.
+
+================================================================
+----------------------
+UNREALTOURNAMENT (c)1999 Epic Megagames, Inc.
+All Rights Reserved.  Distributed by GT Interactive Software, Inc.
+under license.  UNREALTOURNAMENT and the UNREALTOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks
+and trade names are properties of their respective owners.
+
+UNREAL (c)1998 Epic Megagames, Inc.
+All Rights Reserved.  Distributed by GT Interactive Software, Inc.
+under license.  UNREAL and the UNREAL logo are registered trademarks
+of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+----------------------

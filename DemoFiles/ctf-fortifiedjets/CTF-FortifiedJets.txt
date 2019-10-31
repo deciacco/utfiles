@@ -1,0 +1,82 @@
+========================================================================
+
+TITLE:              CTF-FortifiedJets
+
+GAME:               Unreal Tournament
+
+AUTHOR:             Dan "Winky Boy" Overlander
+
+EMAIL:              winkyboy@winkyboy.com
+
+WEBPAGE:            http://www.winkyboy.com/
+
+DESCRIPTION:        Originally this was an Unreal Fortress map, named UNF-CTF-TeamEffort.  It was converted to regular UT, and I have modified it further to the incarnation you have now, adding jets and other goodies that the Wharthog server typically uses. [http://wharthog.ntelos.net/] The Jets and Helicopters are only available periodically and are hidden within their hangars to synchronize when they are available.  The rest of the map has been modified so that air support is very necessary.  Make sure to help your team mates!!  You can also help each other out inside the middle fort.  Press the switch near the door in the upper room to hold open the forcefields for the power weapons.  And press the switch in the bottom room to open the shortcut/teleport from your home base for two minutes.
+                    
+                    ==============================
+                    Revision History:
+                    11/2003: Doubled the size of the board, and added jets, WeaponMage weapons, and cannons.
+                    
+                    The complex rock structures from UNF-CTF-Teamwork have been replaced with more, yet simpler, rock structures to improve frame rates and provide greater cover while crossing the open area.
+                    
+                    3/20/2003: removed all UNF-related material and added new navpoints, weapons, etc. for normal UT.
+
+                    Other Notes: 
+
+                    ! Base doors are activated by the switches next to them, and will stay shut for 8 seconds.
+                    ! Base walls can be blown open
+                    ! Team Towers in the field can be blown over
+                    ! There are a few moveable, destructable boxes within each base.  Not enough to block the front door, but enough to provide cover from certain long-distance shots!
+                    ! There are alternative bridges on the sides of the slime pit.
+
+
+                    ==============================
+                    Known issues:
+                    Bots only know one way to cross the slime, across the main bridges, although they do wander all over the board.
+                    There may be some minor, irritating flicker with some of the movers in the board.  Specifically, two of the Red jet hangars, and the lava bridge closest to the red base.
+
+
+CREDITS:            RangePack1.u, to my knowledge is credit of Will Sheriff
+                    Cannons (NBCRM.u/NBSpecialsUT) by Beppo: http://planetunreal.com/beppo/
+                    Cannon brushes by Hanh "Wanderer" Court (wanderer@gamedesign.net), from CTF-Them.unr
+                    
+                    //================================================
+                    //Sternified QJet Weapons
+                    //September 10th, 2003
+                    //
+                    //Made by Pete Pagan a.k.a. Howard_Stern (Howard Stern Owns your ass!)
+                    //www.1HS.8m.com
+                    //www.wharthog.ntelos.net - "The" server
+                    //
+                    //Original QJet weapons by Zencoder
+                    //www.zencoder.com
+                    //================================================
+
+
+
+Game Type:          Capture The Flag
+Size:               Large
+Players:            16+
+Music Track:        Foregone.umx
+
+========================================================================
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Dan "Winky Boy" Overlander 2003.
+
+Authors may use this level as a base to build additional levels. 
+You are NOT allowed to commercially exploit any part or parts of this level, i.e. put it 
+on a CD or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+========================================================================

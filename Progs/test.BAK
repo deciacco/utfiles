@@ -1,0 +1,92 @@
+LPARAMETERS pcSourceDir, pcGameDir
+
+LOCAL loColDirFiles as Collection
+LOCAL loColFileMappings as Collection
+
+loColFileMappings = CREATEOBJECT("Collection")
+loColDirFiles = CREATEOBJECT("Collection")
+
+SELECT filemappings
+
+GOTO TOP
+SCAN 
+	loColFileMappings.Add(filemappings.dir, filemappings.ext)
+ENDSCAN 
+
+recurse("\\Orion\Lanparty\Ut2004\", @loColDirFiles, "")
+
+_cliptext = ""
+
+FOR i = 1 TO loColDirFiles.Count
+	lcFile = loColDirFiles.Item(i) 
+	lcExt = fileext(lcFile)
+	TRY 
+		lcFound = loColFileMappings.Item(lcExt)
+		IF !ISNULL(lcFound) then
+			_cliptext = _cliptext + loColDirFiles.Item(i) + CHR(13)
+		ENDIF
+	CATCH TO oErr
+	ENDTRY 
+ENDFOR
+
+**************************
+FUNCTION Recurse
+**************************
+LPARAMETERS pcDir, poCol, pcParent
+	LOCAL lnPtr, lnFileCount, laFileList, lcDir, lcFile
+
+	CHDIR "&pcDir"
+	*--- ? 'Dir -> ' + FULLPATH(CURDIR())
+
+	DIMENSION laFileList[1]
+
+	*--- Read the chosen directory.
+	lnFileCount = ADIR(laFileList, '*.*', 'D')
+	FOR lnPtr = 1 TO lnFileCount
+
+	  IF 'D' $ laFileList[lnPtr, 5]
+
+	    *--- Get directory name.
+	    lcDir = laFileList[lnPtr, 1]
+
+	    *--- Ignore current and parent directory pointers.
+	    IF lcDir != '.' AND lcDir != '..'
+	      *--- Call this routine again.
+	      Recurse(lcDir, @poCol, ADDBS(pcParent+pcDir))
+	    ENDIF
+
+	  ELSE
+
+	    *--- Get the file name.
+	    lcFile = LOWER(laFileList[lnPtr, 1])
+		
+		*--- Use filename for key in collection so that duplicate entry will not occur
+		TRY 
+			poCol.Add(pcParent + ADDBS(pcDir) + lcFile, lcFile)
+		CATCH TO oErr
+		ENDTRY 
+	  ENDIF
+
+	ENDFOR
+
+	*--- Move back to parent directory.
+	CHDIR ..
+ENDFUNC 
+
+**************************
+FUNCTION CopyFile
+**************************
+LPARAMETERS pcFilePath
+
+	
+
+ENDFUNC 
+
+**************************
+FUNCTION FileExt
+**************************
+LPARAMETERS pcFile
+
+	RETURN SUBSTR(pcFile,AT(".",pcFile, OCCURS(".",pcFile))+1,3)
+
+ENDFUNC 

@@ -1,0 +1,64 @@
+
+================================================================
+Title                   : CTF-Quarry
+
+Author                  : Adrian Barnett (Stoatbringer)
+
+Date                    : 22nd September 2000
+			
+Email Address           : adrian@abarnett.demon.co.uk
+
+Home Page		        : http://www.abarnett.demon.co.uk
+
+Description             :
+
+			  Red and blue bases at either end of a large
+			  disused quarry. Multiple entrances/exits.
+			  Good for snipers.
+			  Nice and open if you like low-grav matches.
+
+================================================================
+
+Play Information	
+
+Game type                  : Capture the flag
+Recommended No. Players    : 10+
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "CTF-Quarry.unr" into your UnrealTournament/Maps folder.
+
+KNOWN Problems: Sometimes a bot gets stuck trying to jump onto
+the roof of a building to get the rocket launcher.
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 2
+
+Build Time              : Ages.
+
+
+===================================================================
+
+Other UT stuff by Author:
+
+Map : CTF_Magma
+Skin : Magma
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.

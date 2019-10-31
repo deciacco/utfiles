@@ -1,0 +1,11 @@
+LPARAMETERS pcFile as String
+LOCAL lbFound as Boolean, lcFoundPath as String
+
+	lcFoundPath = LOCFILE(pcFile)
+	IF lcFoundPath = pcFile then
+		lbFound = .t.
+	ELSE
+		lbfound = .f.
+	ENDIF
+
+RETURN lbFound

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>UtFile</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>UTFile 1.2.132 Alpha </h1>
+<p>This program is used to add new game files to a currently installed version of Unreal Tournament. It copies files from the source directory into the appropriate directory within the game install directory. It searches a specified folder and it's subfolders for game files and then uses a mappings table to determine where the files needs to go in the game directory. For example, files with the .uax extension need to be placed in the sounds folder. The mappings can be modified to include any file extensions for any version of UT. The current version of UTFile comes with extension mappings for GOTY and 2004 versions. (The program can also be used with other files not associated with Unreal Tournament.) </p>
+<h2>Main Screen </h2>
+<p>This is the main screen of the program.  You must choose a source directory before you can start the copy process. Once you've selected the source directory that contains the new files, make sure you have the correct UT install directory. By default you will see the UT 2004 directory. Use the mappings button to edit mappings. (More on mappings below...) When you've made your selections, click the [Preview] button to start the copy process. The program will analize the source directory and give you a &quot;preview&quot; of what the copy process will do.  UTFile will not copy the files, but give you a report of a simulated copy. (See the preview screen section.) This is useful to make sure that files will be copied to the correct place, and allows you to see files that would be replaced. There are files, that you may not want replaced, especially in the system directory. Use the overwrite checkbox to overwrite files if it is necessary. </p>
+<p><img src="../Images/MainScreen.png" alt="Main Screen" width="393" height="186" /></p>
+<h2>Mappings Screen </h2>
+<p>Use this screen to edit file mappings. First select a mapping by clicking on it. Then use the buttons at the bottom of the screen to carry out an action. The program will search the source directory for all extensions listed on this screen. If you do not want an extension to be processed do not list it here. Future versions of the program may have the ability to save mapping configurations. You must also provide a directory for the extension. UTFile will look for that directory in the destination directory. If it does not find it will not copy the file there and give you an error. Make sure all directories listed under the directory column exist int he destination directory before proceding with the copy. Duplicate extensions are not allowed. </p>
+<p><img src="../Images/Mappings.png" alt="Mappings Screen" width="502" height="358" /></p>
+<h2>Preview Screen</h2>
+<p>This screen is used to take a look at what the program will do when it attempts to copy the files. After you are satisfied with the results of this screen, click continue to copy the files. </p>
+<ul>
+  <li>Found Source File
+    <ul>
+      <li>This is the file that was found in the source directory that will be copied to the destination directory.</li>
+    </ul>
+  </li>
+  <li>In Dest:
+    <ul>
+      <li>Checked means that the Found Source File already exists in the destination directory. Pay attention to these files. There are some, especially in the system directory that you don't want overwriten.</li>
+    </ul>
+  </li>
+  <li>Action
+    <ul>
+      <li>Skip
+        <ul>
+          <li>This file <strong>will not</strong> be copied to the destination folder </li>
+        </ul>
+      </li>
+      <li>Copy
+        <ul>
+          <li>This file <strong>will</strong> be copied to the destination folder </li>
+        </ul>
+      </li>
+      <li>Overwrite
+        <ul>
+          <li>If a file exists in the destination and you've checked the Overwrite Mode checkbox the file will be copied. </li>
+        </ul>
+      </li>
+      <li>Dir Missing
+        <ul>
+          <li>If the directory you assigned to the file's extension is missing in the destination directory you will get a &quot;dir missing&quot; action. The copy process cannot continue if you are missing directories. You will need to create the directory in the destination folder, or remove the mapping from the mapping screen. </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<p><img src="../Images/Preview.png" alt="Preview Screen" width="491" height="362" /> </p>
+<h2>Example Directories </h2>
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>Source </td>
+    <td>&nbsp;</td>
+    <td>Game Directory </td>
+  </tr>
+  <tr align="center" valign="top">
+    <td><img src="../Images/SourceDir.jpg" alt="Source Directory" width="174" height="273" /></td>
+    <td>&nbsp;</td>
+    <td><img src="../Images/UtDir.jpg" alt="Ut Install Directory" width="132" height="289" /></td>
+  </tr>
+</table>
+<h2>Testgame.exe </h2>
+<p>This is a self-extracting archive. It will extract to the directory it resides in a test UT2k4 game directory. Use this as the &quot;UT Install Directory&quot; in the program to test the copy process. This file is located in the program install directory: &quot;c:\program files\utfile\&quot;. </p>
+<h2>License</h2>
+<p>This program is copyright &copy; 2006 Deciacco.com. You are authorised to use the program for your own private use but you may not sell the program or remove any copyright information from it. </p>
+<p>You use the program at your own risk - the author accepts no responsibility for any problems or losses which might arise from its use, and support for the software is not guaranteed.</p>
+<p>deciacco.com<br />
+  contact@deciacco.com</p>
+<h2>Thanks</h2>
+<p>Thanks to all the wonderful people in the Foxpro community that took a few minutes out of their day to answer questions.</p>
+<h2>Other</h2>
+<p>
+Microsoft and Visual FoxPro are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.</p>
+<p>This program and deciacco.com are not affiliated with or endorsed by Microsoft in any way.</p>
+<p>This program is in no way affiliated with Unreal Tournament, Epic Games, or Atari. Unreal &reg; Tournament 2004 &copy; 2004 Epic Games, Inc. Unreal is a registered trademark of Epic Games, Inc. ALL RIGHTS RESERVED. All other trademarks are the property of their respective owners.</p>
+<p>&nbsp;</p>
+</body>
+</html>

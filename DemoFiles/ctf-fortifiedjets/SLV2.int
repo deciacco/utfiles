@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=SLV2.StrangeMutator,Class=Class,MetaClass=Engine.Mutator,Description="Strangelove V2,All Redeemers are replaced with Strangeloves. Yellow Jackets optionally replace Enforcers.")
+Object=(Name=SLV2.StrangeArena,Class=Class,MetaClass=Engine.Mutator,Description="Strangelove V2 Arena,All weapons are replaced by Strangeloves. Yellow Jackets optionally replace Enforcers.")
+Object=(Name=SLV2Window.SLOModMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Strangelove V2,Configure SLV2")

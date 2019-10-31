@@ -1,0 +1,91 @@
+================================================================
+*Title                   :SHOGUN
+*Version                 :one
+*Size                    :19MB
+*Release Date            :October 27 2003
+*Author(s)               :Skyfurnace
+
+
+
+*Where to get this map   :http://www.unrealplayground.com/
+                         
+
+---- Other levels by author ----
+
+*UT2003			 :CTF-Fragtastic
+			 :CTF-Prometheus
+			 :CTF-RifleCreek	
+			 :CTF-FalconsKeep
+			 :CTF-BioHazard_LE
+			 :CTF-KRIEG
+
+================================================================
+---- Play Information ----
+*Game                    :UnrealTournament2003
+*Level Name              :CTF-SHOGUN
+*Single Player           :w/bots
+
+*New Sounds              :No
+*New Textures            :Yes
+*New StaticMeshes/Models :No
+*NewUnrealScript         :No
+
+*Known bugs              :dont know of any
+*Recommended players     :8-14 
+
+*Power Ups               :Damage Amp x1, Super shield x2, Keg o Health x1
+
+
+---- Construction ----
+
+*Editor used             :UnrealED 3
+*Other Programs Used     :Photoshop 7
+*Construction Time       :80 Hours
+
+---- Installation ----
+
+*put the .ut2 file in your /maps directory
+
+---- Author's Notes ----
+
+This map was originally conceived for a Clan map. After completion and some changes
+and suggestions by friends, i decided to make this a submission to the MSUC2003 Phase2 contest.
+*this is labled as CTF-SHOGUNone because the original file had some un forseen problems. everything has been corrected.
+
+---- Special Thanks ----
+
+*d33dub For the Excellent Custom Soundtrack
+
+*Special thanks to Cobra of www.unrealplayground.com the Bot pathing master! 
+This map was really difflecult to path effectivly (more of a layout prblem than bot ai problem), and I thank cobra for his efforts.
+
+*|Robot|PARAGON for his feedback and assistance, and support on the Robot server.
+
+*|Robot|CHERRY2000 for her support Feedback and harrassment
+
+*Clan |Robot| for their support and server testing
+
+*www.UnrealPlayground.com for the best hosting map service on the planet
+
+*Blitz and GUI for their guidance and testing
+
+Thanks to CLAN {RA} Rebel Alliance. My clan and gaming support!
+
+
+
+
+Copyright / Permissions
+-----------------------
+*You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+*You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

@@ -1,0 +1,60 @@
+================================================================
+Title                   : CTF-GoonDocks	
+Version                 : Final Release
+Release Date            : February 29, 2004	
+Filename                : CTF-GoonDocks.unr
+Author(s)               : Richard "GroundZero" Edwards	
+Email Address           : richinvb@yahoo.com	
+Web Page                : www.cox.net/richisinvb
+Description             : Illegal Cigar shipping closely monitored by Liandri and 
+			  turned into a CTF arena for continued shipping rights.
+                          
+Other levels by author  : A Bunch....
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament	
+Level Name              : CTF-GoonDocks
+Number of Players       : 10-24
+Single Player           : No
+Domination              : No
+Deathmatch              : No
+Assault                 : No
+CTF                     : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+Known bugs              : Let me Know!
+New Music               : HyperBore.umx
+
+--- Construction ---
+Editor(s) used          : UnrealED 2.0
+Base                    : None
+Construction Time       : 2 months
+
+Installation
+------------
+Unzip the .unr file into your Unrealtournament/maps/ directory frag away. Put the readme where you want.
+
+Author's Notes
+--------------
+I feel my best level to date.  Thanks for downloading and playing.  Online fun at UnrealPlayground.com if you haven't ventured out into the online world.
+
+
+Copyright/Permission
+--------------------
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.  You may not use this level as a base to build new maps.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

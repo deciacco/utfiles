@@ -1,0 +1,64 @@
+----------------------------
+
+MAP NAME: DM-LS_AFL_Footy
+
+AUTHORS: Lord Simeon 
+	
+VERSION: 1.00
+
+
+----------------
+Play Information
+----------------
+
+
+GAME TYPE: DM
+
+BOT SUPPORT: Yes
+
+TEAMPLAY: Yes
+
+NEW UTX: Yes - All in "MyLevel
+
+NEW UAX: Yes - LS_Sounds, thanks to FB machine for this.
+
+NEW UMX: No
+
+
+
+------------
+Construction
+------------
+
+Base: Original Map
+
+Build Time: couple of weeks, on and off
+
+Inspired by a review i did of homeslices DM-Stadium2, i thought i'd have a go at making a 
+sports map myself. Thanks to Cobra for the pathing and placement, thanks to Ghandi for the soccerball mod, 
+and thanks to FBmachine for compiling a sound pack for me. I couldnt import sounds for some reason...???
+
+
+--------------------
+Extended Description
+--------------------
+
+A DM match in a footy stadium, aussie style. Adelaide crows and port power themed.
+Watch out for the explosive footys, ......nasty.
+
+
+-----------------------
+Copyright / Permissions
+-----------------------
+
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
